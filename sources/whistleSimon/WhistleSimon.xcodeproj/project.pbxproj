@@ -1,0 +1,800 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D3623260D0F684500981E51 /* wistleDogAppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* wistleDogAppDelegate.mm */; };
+		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
+		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
+		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
+		288765FD0DF74451002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765FC0DF74451002DB57D /* CoreGraphics.framework */; };
+		28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD733E0D9D9553002E5188 /* MainWindow.xib */; };
+		882B5C1D14A2239D0069104F /* gameOver.png in Resources */ = {isa = PBXBuildFile; fileRef = 882B5C1C14A2239D0069104F /* gameOver.png */; };
+		883E405414B153B000C8E2A3 /* Icon-72.png in Resources */ = {isa = PBXBuildFile; fileRef = 883E405314B153B000C8E2A3 /* Icon-72.png */; };
+		883E406A14B1549700C8E2A3 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 883E406914B1549700C8E2A3 /* Icon.png */; };
+		88460E91148D5FB9000B0181 /* scores.sql in Resources */ = {isa = PBXBuildFile; fileRef = 88460E90148D5FB9000B0181 /* scores.sql */; };
+		88460E9D148D6077000B0181 /* NSCallScore.m in Sources */ = {isa = PBXBuildFile; fileRef = 88460E98148D6077000B0181 /* NSCallScore.m */; };
+		88460E9E148D6077000B0181 /* Score.m in Sources */ = {isa = PBXBuildFile; fileRef = 88460E9A148D6077000B0181 /* Score.m */; };
+		88460E9F148D6077000B0181 /* XMLReaderScore.m in Sources */ = {isa = PBXBuildFile; fileRef = 88460E9C148D6077000B0181 /* XMLReaderScore.m */; };
+		88460EF2148D647E000B0181 /* blip_click.aif in Resources */ = {isa = PBXBuildFile; fileRef = 88460EEF148D647E000B0181 /* blip_click.aif */; };
+		88460EF3148D647E000B0181 /* right.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 88460EF0148D647E000B0181 /* right.mp3 */; };
+		88460EF4148D647E000B0181 /* wrong.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 88460EF1148D647E000B0181 /* wrong.mp3 */; };
+		886552FD1491B951009D0A14 /* Movida.m in Sources */ = {isa = PBXBuildFile; fileRef = 886552FC1491B951009D0A14 /* Movida.m */; };
+		88703EA114A2387F00656BE2 /* MSHighScoreInput.m in Sources */ = {isa = PBXBuildFile; fileRef = 88703E9D14A2387F00656BE2 /* MSHighScoreInput.m */; };
+		88703EA214A2387F00656BE2 /* MSHighScoreInput.xib in Resources */ = {isa = PBXBuildFile; fileRef = 88703E9E14A2387F00656BE2 /* MSHighScoreInput.xib */; };
+		8878C8F3148C5B380078E112 /* About.png in Resources */ = {isa = PBXBuildFile; fileRef = 8878C8EA148C5B380078E112 /* About.png */; };
+		8878C8F4148C5B380078E112 /* bg.png in Resources */ = {isa = PBXBuildFile; fileRef = 8878C8EB148C5B380078E112 /* bg.png */; };
+		8878C8F5148C5B380078E112 /* doUWhistle.png in Resources */ = {isa = PBXBuildFile; fileRef = 8878C8EC148C5B380078E112 /* doUWhistle.png */; };
+		8878C8F6148C5B380078E112 /* GameMode.png in Resources */ = {isa = PBXBuildFile; fileRef = 8878C8ED148C5B380078E112 /* GameMode.png */; };
+		8878C8F7148C5B380078E112 /* help.png in Resources */ = {isa = PBXBuildFile; fileRef = 8878C8EE148C5B380078E112 /* help.png */; };
+		8878C8F8148C5B380078E112 /* highScores.png in Resources */ = {isa = PBXBuildFile; fileRef = 8878C8EF148C5B380078E112 /* highScores.png */; };
+		8878C8F9148C5B380078E112 /* testMode.png in Resources */ = {isa = PBXBuildFile; fileRef = 8878C8F0148C5B380078E112 /* testMode.png */; };
+		8878C8FA148C5B380078E112 /* theWhistleSimon.png in Resources */ = {isa = PBXBuildFile; fileRef = 8878C8F1148C5B380078E112 /* theWhistleSimon.png */; };
+		8878C8FB148C5B380078E112 /* whistleSimon.png in Resources */ = {isa = PBXBuildFile; fileRef = 8878C8F2148C5B380078E112 /* whistleSimon.png */; };
+		8878C92A148C60F80078E112 /* MSHelp.mm in Sources */ = {isa = PBXBuildFile; fileRef = 8878C928148C60F80078E112 /* MSHelp.mm */; };
+		8878C92B148C60F80078E112 /* MSHelp.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8878C929148C60F80078E112 /* MSHelp.xib */; };
+		8878C933148C61010078E112 /* MSAbout.mm in Sources */ = {isa = PBXBuildFile; fileRef = 8878C92F148C61010078E112 /* MSAbout.mm */; };
+		8878C934148C61010078E112 /* MSAbout.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8878C930148C61010078E112 /* MSAbout.xib */; };
+		8878C93F148C61180078E112 /* MSTestMode.mm in Sources */ = {isa = PBXBuildFile; fileRef = 8878C93D148C61180078E112 /* MSTestMode.mm */; };
+		8878C940148C61180078E112 /* MSTestMode.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8878C93E148C61180078E112 /* MSTestMode.xib */; };
+		8878C946148C614F0078E112 /* MSGameMode.mm in Sources */ = {isa = PBXBuildFile; fileRef = 8878C944148C614F0078E112 /* MSGameMode.mm */; };
+		8878C947148C614F0078E112 /* MSGameMode.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8878C945148C614F0078E112 /* MSGameMode.xib */; };
+		8878C94D148C615F0078E112 /* MSHighScores.mm in Sources */ = {isa = PBXBuildFile; fileRef = 8878C94B148C615F0078E112 /* MSHighScores.mm */; };
+		8878C94E148C615F0078E112 /* MSHighScores.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8878C94C148C615F0078E112 /* MSHighScores.xib */; };
+		8878C977148C647E0078E112 /* donegreen.png in Resources */ = {isa = PBXBuildFile; fileRef = 8878C976148C647E0078E112 /* donegreen.png */; };
+		887D4ACB14A755EB00769ABE /* MSWhistleMain-iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 88E007E6130C57BC00A48611 /* MSWhistleMain-iPad.xib */; };
+		887D4B0214A765B100769ABE /* MSHelp-iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 887D4B0114A765B100769ABE /* MSHelp-iPad.xib */; };
+		887D4B2314A76DF300769ABE /* MSAbout-iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 887D4B1F14A76DF300769ABE /* MSAbout-iPad.xib */; };
+		887D4B2414A76DF300769ABE /* MSGameMode-iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 887D4B2014A76DF300769ABE /* MSGameMode-iPad.xib */; };
+		887D4B2514A76DF300769ABE /* MSHighScoreInput-iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 887D4B2114A76DF300769ABE /* MSHighScoreInput-iPad.xib */; };
+		887D4B2614A76DF300769ABE /* MSTestMode-iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 887D4B2214A76DF300769ABE /* MSTestMode-iPad.xib */; };
+		887D4B3514A7714500769ABE /* MSHighScores-iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 887D4B3414A7714500769ABE /* MSHighScores-iPad.xib */; };
+		888D1459130B1F5B00E6EDAA /* bg.png in Resources */ = {isa = PBXBuildFile; fileRef = 888D1458130B1F5B00E6EDAA /* bg.png */; };
+		888D145D130B1F7700E6EDAA /* MSWhistleMain.mm in Sources */ = {isa = PBXBuildFile; fileRef = 888D145B130B1F7700E6EDAA /* MSWhistleMain.mm */; };
+		888D145E130B1F7700E6EDAA /* MSWhistleMain.xib in Resources */ = {isa = PBXBuildFile; fileRef = 888D145C130B1F7700E6EDAA /* MSWhistleMain.xib */; };
+		888D149E130B254E00E6EDAA /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 888D149D130B254E00E6EDAA /* libsqlite3.dylib */; };
+		888D14A0130B255500E6EDAA /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 888D149F130B255500E6EDAA /* CFNetwork.framework */; };
+		888D14BB130B277C00E6EDAA /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 888D14BA130B277C00E6EDAA /* CoreMedia.framework */; };
+		888D1503130B290800E6EDAA /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 888D1502130B290800E6EDAA /* MediaPlayer.framework */; };
+		888E218F149ED56500C40B9E /* theGreen.png in Resources */ = {isa = PBXBuildFile; fileRef = 888E218E149ED56500C40B9E /* theGreen.png */; };
+		888E219A149EDB6700C40B9E /* lose.caf in Resources */ = {isa = PBXBuildFile; fileRef = 888E2199149EDB6700C40B9E /* lose.caf */; };
+		889F4DA7149033CE00E25E5F /* thehighScores.png in Resources */ = {isa = PBXBuildFile; fileRef = 889F4DA6149033CE00E25E5F /* thehighScores.png */; };
+		889F4E17149059EB00E25E5F /* theGameMode.png in Resources */ = {isa = PBXBuildFile; fileRef = 889F4E13149059EB00E25E5F /* theGameMode.png */; };
+		889F4E18149059EB00E25E5F /* theHowToWhistleWithYourMouse.png in Resources */ = {isa = PBXBuildFile; fileRef = 889F4E14149059EB00E25E5F /* theHowToWhistleWithYourMouse.png */; };
+		889F4E19149059EB00E25E5F /* theTestMode.png in Resources */ = {isa = PBXBuildFile; fileRef = 889F4E15149059EB00E25E5F /* theTestMode.png */; };
+		889F4E1A149059EB00E25E5F /* theTipsAndWarnings.png in Resources */ = {isa = PBXBuildFile; fileRef = 889F4E16149059EB00E25E5F /* theTipsAndWarnings.png */; };
+		889F4E2D14905E4300E25E5F /* theBlue.png in Resources */ = {isa = PBXBuildFile; fileRef = 889F4E2A14905E4300E25E5F /* theBlue.png */; };
+		889F4E2E14905E4300E25E5F /* theRed.png in Resources */ = {isa = PBXBuildFile; fileRef = 889F4E2B14905E4300E25E5F /* theRed.png */; };
+		889F4E2F14905E4300E25E5F /* theYellow.png in Resources */ = {isa = PBXBuildFile; fileRef = 889F4E2C14905E4300E25E5F /* theYellow.png */; };
+		88ABE3E714A3CEC900515199 /* bgGame.png in Resources */ = {isa = PBXBuildFile; fileRef = 88ABE3E514A3CEC900515199 /* bgGame.png */; };
+		88ABE44B14A4B66300515199 /* bgPieces.png in Resources */ = {isa = PBXBuildFile; fileRef = 88ABE44514A4B66300515199 /* bgPieces.png */; };
+		88ABE44C14A4B66300515199 /* bottom.png in Resources */ = {isa = PBXBuildFile; fileRef = 88ABE44614A4B66300515199 /* bottom.png */; };
+		88ABE44D14A4B66300515199 /* top.png in Resources */ = {isa = PBXBuildFile; fileRef = 88ABE44714A4B66300515199 /* top.png */; };
+		88D09D0B14A6A07D00BE0DFF /* theHowToPlay.png in Resources */ = {isa = PBXBuildFile; fileRef = 88D09D0914A6A07D00BE0DFF /* theHowToPlay.png */; };
+		88E0081F130C5A1A00A48611 /* libGoogleAnalytics.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 88E0081E130C5A1A00A48611 /* libGoogleAnalytics.a */; };
+		88E008A3130C607500A48611 /* aurio_helper.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 88E0088D130C607500A48611 /* aurio_helper.cpp */; };
+		88E008A4130C607500A48611 /* rad2fft.c in Sources */ = {isa = PBXBuildFile; fileRef = 88E00891130C607500A48611 /* rad2fft.c */; };
+		88E008A5130C607500A48611 /* SpectrumAnalysis.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 88E00893130C607500A48611 /* SpectrumAnalysis.cpp */; };
+		88E008A6130C607500A48611 /* FFTBufferManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 88E00895130C607500A48611 /* FFTBufferManager.cpp */; };
+		88E008A7130C607500A48611 /* CADebugMacros.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 88E00898130C607500A48611 /* CADebugMacros.cpp */; };
+		88E008A8130C607500A48611 /* CAStreamBasicDescription.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 88E0089B130C607500A48611 /* CAStreamBasicDescription.cpp */; };
+		88E008A9130C607500A48611 /* CAXException.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 88E0089D130C607500A48611 /* CAXException.cpp */; };
+		88E008AA130C607500A48611 /* MSSoundManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 88E0089F130C607500A48611 /* MSSoundManager.cpp */; };
+		88E008AB130C607500A48611 /* Recorder.mm in Sources */ = {isa = PBXBuildFile; fileRef = 88E008A1130C607500A48611 /* Recorder.mm */; };
+		88E008C4130C608900A48611 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88E008C3130C608900A48611 /* AudioToolbox.framework */; };
+		88F00E42130CA5C2007D2BBA /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88F00E41130CA5C2007D2BBA /* AVFoundation.framework */; };
+		88F00FBE130D8CB8007D2BBA /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 88F00FBD130D8CB8007D2BBA /* Default.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1D3623240D0F684500981E51 /* wistleDogAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = wistleDogAppDelegate.h; path = Classes/wistleDogAppDelegate.h; sourceTree = "<group>"; };
+		1D3623250D0F684500981E51 /* wistleDogAppDelegate.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = wistleDogAppDelegate.mm; path = Classes/wistleDogAppDelegate.mm; sourceTree = "<group>"; };
+		1D6058910D05DD3D006BFB54 /* WhistleSimon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WhistleSimon.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		288765FC0DF74451002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		28AD733E0D9D9553002E5188 /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		32CA4F630368D1EE00C91783 /* WhistleSimon_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WhistleSimon_Prefix.pch; sourceTree = "<group>"; };
+		882B5C1C14A2239D0069104F /* gameOver.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gameOver.png; sourceTree = "<group>"; };
+		883E405314B153B000C8E2A3 /* Icon-72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-72.png"; sourceTree = "<group>"; };
+		883E406914B1549700C8E2A3 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		88460E90148D5FB9000B0181 /* scores.sql */ = {isa = PBXFileReference; lastKnownFileType = file; path = scores.sql; sourceTree = "<group>"; };
+		88460E97148D6077000B0181 /* NSCallScore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSCallScore.h; sourceTree = SOURCE_ROOT; };
+		88460E98148D6077000B0181 /* NSCallScore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSCallScore.m; sourceTree = SOURCE_ROOT; };
+		88460E99148D6077000B0181 /* Score.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Score.h; sourceTree = SOURCE_ROOT; };
+		88460E9A148D6077000B0181 /* Score.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Score.m; sourceTree = SOURCE_ROOT; };
+		88460E9B148D6077000B0181 /* XMLReaderScore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMLReaderScore.h; sourceTree = SOURCE_ROOT; };
+		88460E9C148D6077000B0181 /* XMLReaderScore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMLReaderScore.m; sourceTree = SOURCE_ROOT; };
+		88460EEF148D647E000B0181 /* blip_click.aif */ = {isa = PBXFileReference; lastKnownFileType = file; path = blip_click.aif; sourceTree = "<group>"; };
+		88460EF0148D647E000B0181 /* right.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = right.mp3; sourceTree = "<group>"; };
+		88460EF1148D647E000B0181 /* wrong.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = wrong.mp3; sourceTree = "<group>"; };
+		886552FB1491B951009D0A14 /* Movida.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Movida.h; sourceTree = SOURCE_ROOT; };
+		886552FC1491B951009D0A14 /* Movida.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Movida.m; sourceTree = SOURCE_ROOT; };
+		88703E9C14A2387F00656BE2 /* MSHighScoreInput.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSHighScoreInput.h; sourceTree = "<group>"; };
+		88703E9D14A2387F00656BE2 /* MSHighScoreInput.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSHighScoreInput.m; sourceTree = "<group>"; };
+		88703E9E14A2387F00656BE2 /* MSHighScoreInput.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MSHighScoreInput.xib; sourceTree = "<group>"; };
+		8878C8EA148C5B380078E112 /* About.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = About.png; sourceTree = "<group>"; };
+		8878C8EB148C5B380078E112 /* bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bg.png; sourceTree = "<group>"; };
+		8878C8EC148C5B380078E112 /* doUWhistle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = doUWhistle.png; sourceTree = "<group>"; };
+		8878C8ED148C5B380078E112 /* GameMode.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = GameMode.png; sourceTree = "<group>"; };
+		8878C8EE148C5B380078E112 /* help.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = help.png; sourceTree = "<group>"; };
+		8878C8EF148C5B380078E112 /* highScores.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = highScores.png; sourceTree = "<group>"; };
+		8878C8F0148C5B380078E112 /* testMode.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = testMode.png; sourceTree = "<group>"; };
+		8878C8F1148C5B380078E112 /* theWhistleSimon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = theWhistleSimon.png; sourceTree = "<group>"; };
+		8878C8F2148C5B380078E112 /* whistleSimon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = whistleSimon.png; sourceTree = "<group>"; };
+		8878C927148C60F80078E112 /* MSHelp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSHelp.h; sourceTree = "<group>"; };
+		8878C928148C60F80078E112 /* MSHelp.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = MSHelp.mm; sourceTree = "<group>"; };
+		8878C929148C60F80078E112 /* MSHelp.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MSHelp.xib; sourceTree = "<group>"; };
+		8878C92E148C61010078E112 /* MSAbout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSAbout.h; sourceTree = "<group>"; };
+		8878C92F148C61010078E112 /* MSAbout.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = MSAbout.mm; sourceTree = "<group>"; };
+		8878C930148C61010078E112 /* MSAbout.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MSAbout.xib; sourceTree = "<group>"; };
+		8878C93C148C61180078E112 /* MSTestMode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSTestMode.h; sourceTree = "<group>"; };
+		8878C93D148C61180078E112 /* MSTestMode.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = MSTestMode.mm; sourceTree = "<group>"; };
+		8878C93E148C61180078E112 /* MSTestMode.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MSTestMode.xib; sourceTree = "<group>"; };
+		8878C943148C614F0078E112 /* MSGameMode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSGameMode.h; sourceTree = "<group>"; };
+		8878C944148C614F0078E112 /* MSGameMode.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = MSGameMode.mm; sourceTree = "<group>"; };
+		8878C945148C614F0078E112 /* MSGameMode.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MSGameMode.xib; sourceTree = "<group>"; };
+		8878C94A148C615F0078E112 /* MSHighScores.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSHighScores.h; sourceTree = "<group>"; };
+		8878C94B148C615F0078E112 /* MSHighScores.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = MSHighScores.mm; sourceTree = "<group>"; };
+		8878C94C148C615F0078E112 /* MSHighScores.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MSHighScores.xib; sourceTree = "<group>"; };
+		8878C976148C647E0078E112 /* donegreen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = donegreen.png; sourceTree = "<group>"; };
+		887D4B0114A765B100769ABE /* MSHelp-iPad.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = "MSHelp-iPad.xib"; sourceTree = "<group>"; };
+		887D4B1F14A76DF300769ABE /* MSAbout-iPad.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = "MSAbout-iPad.xib"; sourceTree = "<group>"; };
+		887D4B2014A76DF300769ABE /* MSGameMode-iPad.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = "MSGameMode-iPad.xib"; sourceTree = "<group>"; };
+		887D4B2114A76DF300769ABE /* MSHighScoreInput-iPad.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = "MSHighScoreInput-iPad.xib"; sourceTree = "<group>"; };
+		887D4B2214A76DF300769ABE /* MSTestMode-iPad.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = "MSTestMode-iPad.xib"; sourceTree = "<group>"; };
+		887D4B3414A7714500769ABE /* MSHighScores-iPad.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = "MSHighScores-iPad.xib"; sourceTree = "<group>"; };
+		888D1458130B1F5B00E6EDAA /* bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bg.png; sourceTree = "<group>"; };
+		888D145A130B1F7700E6EDAA /* MSWhistleMain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSWhistleMain.h; sourceTree = "<group>"; };
+		888D145B130B1F7700E6EDAA /* MSWhistleMain.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = MSWhistleMain.mm; sourceTree = "<group>"; };
+		888D145C130B1F7700E6EDAA /* MSWhistleMain.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MSWhistleMain.xib; sourceTree = "<group>"; };
+		888D148A130B24B500E6EDAA /* GANTracker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GANTracker.h; sourceTree = "<group>"; };
+		888D149D130B254E00E6EDAA /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		888D149F130B255500E6EDAA /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		888D14BA130B277C00E6EDAA /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		888D1502130B290800E6EDAA /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		888E218E149ED56500C40B9E /* theGreen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = theGreen.png; sourceTree = "<group>"; };
+		888E2199149EDB6700C40B9E /* lose.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = lose.caf; sourceTree = "<group>"; };
+		889F4DA6149033CE00E25E5F /* thehighScores.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = thehighScores.png; sourceTree = "<group>"; };
+		889F4E13149059EB00E25E5F /* theGameMode.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = theGameMode.png; sourceTree = "<group>"; };
+		889F4E14149059EB00E25E5F /* theHowToWhistleWithYourMouse.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = theHowToWhistleWithYourMouse.png; sourceTree = "<group>"; };
+		889F4E15149059EB00E25E5F /* theTestMode.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = theTestMode.png; sourceTree = "<group>"; };
+		889F4E16149059EB00E25E5F /* theTipsAndWarnings.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = theTipsAndWarnings.png; sourceTree = "<group>"; };
+		889F4E2A14905E4300E25E5F /* theBlue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = theBlue.png; sourceTree = "<group>"; };
+		889F4E2B14905E4300E25E5F /* theRed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = theRed.png; sourceTree = "<group>"; };
+		889F4E2C14905E4300E25E5F /* theYellow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = theYellow.png; sourceTree = "<group>"; };
+		88ABE3E514A3CEC900515199 /* bgGame.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bgGame.png; sourceTree = "<group>"; };
+		88ABE44514A4B66300515199 /* bgPieces.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bgPieces.png; sourceTree = "<group>"; };
+		88ABE44614A4B66300515199 /* bottom.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bottom.png; sourceTree = "<group>"; };
+		88ABE44714A4B66300515199 /* top.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = top.png; sourceTree = "<group>"; };
+		88D09D0914A6A07D00BE0DFF /* theHowToPlay.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = theHowToPlay.png; sourceTree = "<group>"; };
+		88E007E5130C57BC00A48611 /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = MainWindow.xib; path = "Resources-iPad/MainWindow.xib"; sourceTree = "<group>"; };
+		88E007E6130C57BC00A48611 /* MSWhistleMain-iPad.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = "MSWhistleMain-iPad.xib"; path = "Resources-iPad/MSWhistleMain-iPad.xib"; sourceTree = "<group>"; };
+		88E0081E130C5A1A00A48611 /* libGoogleAnalytics.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libGoogleAnalytics.a; sourceTree = "<group>"; };
+		88E0088D130C607500A48611 /* aurio_helper.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = aurio_helper.cpp; sourceTree = "<group>"; };
+		88E0088E130C607500A48611 /* aurio_helper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = aurio_helper.h; sourceTree = "<group>"; };
+		88E00891130C607500A48611 /* rad2fft.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = rad2fft.c; sourceTree = "<group>"; };
+		88E00892130C607500A48611 /* rad2fft.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = rad2fft.h; sourceTree = "<group>"; };
+		88E00893130C607500A48611 /* SpectrumAnalysis.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SpectrumAnalysis.cpp; sourceTree = "<group>"; };
+		88E00894130C607500A48611 /* SpectrumAnalysis.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SpectrumAnalysis.h; sourceTree = "<group>"; };
+		88E00895130C607500A48611 /* FFTBufferManager.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = FFTBufferManager.cpp; sourceTree = "<group>"; };
+		88E00896130C607500A48611 /* FFTBufferManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FFTBufferManager.h; sourceTree = "<group>"; };
+		88E00898130C607500A48611 /* CADebugMacros.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CADebugMacros.cpp; sourceTree = "<group>"; };
+		88E00899130C607500A48611 /* CADebugMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CADebugMacros.h; sourceTree = "<group>"; };
+		88E0089A130C607500A48611 /* CAMath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CAMath.h; sourceTree = "<group>"; };
+		88E0089B130C607500A48611 /* CAStreamBasicDescription.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CAStreamBasicDescription.cpp; sourceTree = "<group>"; };
+		88E0089C130C607500A48611 /* CAStreamBasicDescription.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CAStreamBasicDescription.h; sourceTree = "<group>"; };
+		88E0089D130C607500A48611 /* CAXException.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CAXException.cpp; sourceTree = "<group>"; };
+		88E0089E130C607500A48611 /* CAXException.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CAXException.h; sourceTree = "<group>"; };
+		88E0089F130C607500A48611 /* MSSoundManager.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MSSoundManager.cpp; sourceTree = "<group>"; };
+		88E008A0130C607500A48611 /* MSSoundManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSSoundManager.h; sourceTree = "<group>"; };
+		88E008A1130C607500A48611 /* Recorder.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = Recorder.mm; sourceTree = "<group>"; };
+		88E008A2130C607500A48611 /* Recorder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Recorder.h; sourceTree = "<group>"; };
+		88E008C3130C608900A48611 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		88F00E41130CA5C2007D2BBA /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		88F00FBD130D8CB8007D2BBA /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* WhistleSimon-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "WhistleSimon-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D60588F0D05DD3D006BFB54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
+				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
+				288765FD0DF74451002DB57D /* CoreGraphics.framework in Frameworks */,
+				888D149E130B254E00E6EDAA /* libsqlite3.dylib in Frameworks */,
+				888D14A0130B255500E6EDAA /* CFNetwork.framework in Frameworks */,
+				888D14BB130B277C00E6EDAA /* CoreMedia.framework in Frameworks */,
+				888D1503130B290800E6EDAA /* MediaPlayer.framework in Frameworks */,
+				88E0081F130C5A1A00A48611 /* libGoogleAnalytics.a in Frameworks */,
+				88E008C4130C608900A48611 /* AudioToolbox.framework in Frameworks */,
+				88F00E42130CA5C2007D2BBA /* AVFoundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				886552FB1491B951009D0A14 /* Movida.h */,
+				886552FC1491B951009D0A14 /* Movida.m */,
+				88E0088C130C607500A48611 /* soundManager */,
+				88460E97148D6077000B0181 /* NSCallScore.h */,
+				88460E98148D6077000B0181 /* NSCallScore.m */,
+				88460E99148D6077000B0181 /* Score.h */,
+				88460E9A148D6077000B0181 /* Score.m */,
+				88460E9B148D6077000B0181 /* XMLReaderScore.h */,
+				88460E9C148D6077000B0181 /* XMLReaderScore.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D6058910D05DD3D006BFB54 /* WhistleSimon.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
+			isa = PBXGroup;
+			children = (
+				883E406914B1549700C8E2A3 /* Icon.png */,
+				888D148D130B24C600E6EDAA /* main */,
+				888D1489130B24B500E6EDAA /* AnalylicsLibrary */,
+				888D150F130B296200E6EDAA /* Controllers */,
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				88E007E4130C57BB00A48611 /* Resources-iPad */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = CustomTemplate;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				32CA4F630368D1EE00C91783 /* WhistleSimon_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				883E405314B153B000C8E2A3 /* Icon-72.png */,
+				88460E90148D5FB9000B0181 /* scores.sql */,
+				8878C8E9148C5B380078E112 /* media */,
+				88F00FBD130D8CB8007D2BBA /* Default.png */,
+				888D1457130B1F5B00E6EDAA /* media */,
+				28AD733E0D9D9553002E5188 /* MainWindow.xib */,
+				8D1107310486CEB800E47090 /* WhistleSimon-Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
+				1D30AB110D05D00D00671497 /* Foundation.framework */,
+				288765FC0DF74451002DB57D /* CoreGraphics.framework */,
+				888D149D130B254E00E6EDAA /* libsqlite3.dylib */,
+				888D149F130B255500E6EDAA /* CFNetwork.framework */,
+				888D14BA130B277C00E6EDAA /* CoreMedia.framework */,
+				888D1502130B290800E6EDAA /* MediaPlayer.framework */,
+				88E008C3130C608900A48611 /* AudioToolbox.framework */,
+				88F00E41130CA5C2007D2BBA /* AVFoundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8878C8E9148C5B380078E112 /* media */ = {
+			isa = PBXGroup;
+			children = (
+				88D09D0914A6A07D00BE0DFF /* theHowToPlay.png */,
+				88ABE44514A4B66300515199 /* bgPieces.png */,
+				88ABE44614A4B66300515199 /* bottom.png */,
+				88ABE44714A4B66300515199 /* top.png */,
+				88ABE3E514A3CEC900515199 /* bgGame.png */,
+				882B5C1C14A2239D0069104F /* gameOver.png */,
+				888E2199149EDB6700C40B9E /* lose.caf */,
+				888E218E149ED56500C40B9E /* theGreen.png */,
+				889F4E2A14905E4300E25E5F /* theBlue.png */,
+				889F4E2B14905E4300E25E5F /* theRed.png */,
+				889F4E2C14905E4300E25E5F /* theYellow.png */,
+				889F4E13149059EB00E25E5F /* theGameMode.png */,
+				889F4E14149059EB00E25E5F /* theHowToWhistleWithYourMouse.png */,
+				889F4E15149059EB00E25E5F /* theTestMode.png */,
+				889F4E16149059EB00E25E5F /* theTipsAndWarnings.png */,
+				889F4DA6149033CE00E25E5F /* thehighScores.png */,
+				88460EEF148D647E000B0181 /* blip_click.aif */,
+				88460EF0148D647E000B0181 /* right.mp3 */,
+				88460EF1148D647E000B0181 /* wrong.mp3 */,
+				8878C976148C647E0078E112 /* donegreen.png */,
+				8878C8EA148C5B380078E112 /* About.png */,
+				8878C8EB148C5B380078E112 /* bg.png */,
+				8878C8EC148C5B380078E112 /* doUWhistle.png */,
+				8878C8ED148C5B380078E112 /* GameMode.png */,
+				8878C8EE148C5B380078E112 /* help.png */,
+				8878C8EF148C5B380078E112 /* highScores.png */,
+				8878C8F0148C5B380078E112 /* testMode.png */,
+				8878C8F1148C5B380078E112 /* theWhistleSimon.png */,
+				8878C8F2148C5B380078E112 /* whistleSimon.png */,
+			);
+			name = media;
+			path = ../media;
+			sourceTree = SOURCE_ROOT;
+		};
+		888D1457130B1F5B00E6EDAA /* media */ = {
+			isa = PBXGroup;
+			children = (
+				888D1458130B1F5B00E6EDAA /* bg.png */,
+			);
+			name = media;
+			path = ../media;
+			sourceTree = SOURCE_ROOT;
+		};
+		888D1489130B24B500E6EDAA /* AnalylicsLibrary */ = {
+			isa = PBXGroup;
+			children = (
+				88E0081E130C5A1A00A48611 /* libGoogleAnalytics.a */,
+				888D148A130B24B500E6EDAA /* GANTracker.h */,
+			);
+			name = AnalylicsLibrary;
+			path = ../AnalylicsLibrary;
+			sourceTree = SOURCE_ROOT;
+		};
+		888D148D130B24C600E6EDAA /* main */ = {
+			isa = PBXGroup;
+			children = (
+				1D3623240D0F684500981E51 /* wistleDogAppDelegate.h */,
+				1D3623250D0F684500981E51 /* wistleDogAppDelegate.mm */,
+			);
+			name = main;
+			sourceTree = "<group>";
+		};
+		888D150F130B296200E6EDAA /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				888D145A130B1F7700E6EDAA /* MSWhistleMain.h */,
+				888D145B130B1F7700E6EDAA /* MSWhistleMain.mm */,
+				888D145C130B1F7700E6EDAA /* MSWhistleMain.xib */,
+				8878C927148C60F80078E112 /* MSHelp.h */,
+				8878C928148C60F80078E112 /* MSHelp.mm */,
+				8878C929148C60F80078E112 /* MSHelp.xib */,
+				8878C92E148C61010078E112 /* MSAbout.h */,
+				8878C92F148C61010078E112 /* MSAbout.mm */,
+				8878C930148C61010078E112 /* MSAbout.xib */,
+				8878C93C148C61180078E112 /* MSTestMode.h */,
+				8878C93D148C61180078E112 /* MSTestMode.mm */,
+				8878C93E148C61180078E112 /* MSTestMode.xib */,
+				8878C943148C614F0078E112 /* MSGameMode.h */,
+				8878C944148C614F0078E112 /* MSGameMode.mm */,
+				8878C945148C614F0078E112 /* MSGameMode.xib */,
+				8878C94A148C615F0078E112 /* MSHighScores.h */,
+				8878C94B148C615F0078E112 /* MSHighScores.mm */,
+				8878C94C148C615F0078E112 /* MSHighScores.xib */,
+				88703E9C14A2387F00656BE2 /* MSHighScoreInput.h */,
+				88703E9D14A2387F00656BE2 /* MSHighScoreInput.m */,
+				88703E9E14A2387F00656BE2 /* MSHighScoreInput.xib */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		88E007E4130C57BB00A48611 /* Resources-iPad */ = {
+			isa = PBXGroup;
+			children = (
+				887D4B3414A7714500769ABE /* MSHighScores-iPad.xib */,
+				887D4B1F14A76DF300769ABE /* MSAbout-iPad.xib */,
+				887D4B2014A76DF300769ABE /* MSGameMode-iPad.xib */,
+				887D4B2114A76DF300769ABE /* MSHighScoreInput-iPad.xib */,
+				887D4B2214A76DF300769ABE /* MSTestMode-iPad.xib */,
+				88E007E5130C57BC00A48611 /* MainWindow.xib */,
+				88E007E6130C57BC00A48611 /* MSWhistleMain-iPad.xib */,
+				887D4B0114A765B100769ABE /* MSHelp-iPad.xib */,
+			);
+			name = "Resources-iPad";
+			sourceTree = "<group>";
+		};
+		88E0088C130C607500A48611 /* soundManager */ = {
+			isa = PBXGroup;
+			children = (
+				88E0088D130C607500A48611 /* aurio_helper.cpp */,
+				88E0088E130C607500A48611 /* aurio_helper.h */,
+				88E0088F130C607500A48611 /* Classes */,
+				88E00890130C607500A48611 /* fft */,
+				88E00895130C607500A48611 /* FFTBufferManager.cpp */,
+				88E00896130C607500A48611 /* FFTBufferManager.h */,
+				88E00897130C607500A48611 /* iPublicUtility */,
+				88E0089F130C607500A48611 /* MSSoundManager.cpp */,
+				88E008A0130C607500A48611 /* MSSoundManager.h */,
+				88E008A1130C607500A48611 /* Recorder.mm */,
+				88E008A2130C607500A48611 /* Recorder.h */,
+			);
+			name = soundManager;
+			path = ../soundManager;
+			sourceTree = SOURCE_ROOT;
+		};
+		88E0088F130C607500A48611 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		88E00890130C607500A48611 /* fft */ = {
+			isa = PBXGroup;
+			children = (
+				88E00891130C607500A48611 /* rad2fft.c */,
+				88E00892130C607500A48611 /* rad2fft.h */,
+				88E00893130C607500A48611 /* SpectrumAnalysis.cpp */,
+				88E00894130C607500A48611 /* SpectrumAnalysis.h */,
+			);
+			path = fft;
+			sourceTree = "<group>";
+		};
+		88E00897130C607500A48611 /* iPublicUtility */ = {
+			isa = PBXGroup;
+			children = (
+				88E00898130C607500A48611 /* CADebugMacros.cpp */,
+				88E00899130C607500A48611 /* CADebugMacros.h */,
+				88E0089A130C607500A48611 /* CAMath.h */,
+				88E0089B130C607500A48611 /* CAStreamBasicDescription.cpp */,
+				88E0089C130C607500A48611 /* CAStreamBasicDescription.h */,
+				88E0089D130C607500A48611 /* CAXException.cpp */,
+				88E0089E130C607500A48611 /* CAXException.h */,
+			);
+			path = iPublicUtility;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D6058900D05DD3D006BFB54 /* WhistleSimon */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "WhistleSimon" */;
+			buildPhases = (
+				1D60588D0D05DD3D006BFB54 /* Resources */,
+				1D60588E0D05DD3D006BFB54 /* Sources */,
+				1D60588F0D05DD3D006BFB54 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WhistleSimon;
+			productName = wistleDog;
+			productReference = 1D6058910D05DD3D006BFB54 /* WhistleSimon.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "WhistleSimon" */;
+			compatibilityVersion = "Xcode 3.1";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* CustomTemplate */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D6058900D05DD3D006BFB54 /* WhistleSimon */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D60588D0D05DD3D006BFB54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */,
+				888D1459130B1F5B00E6EDAA /* bg.png in Resources */,
+				888D145E130B1F7700E6EDAA /* MSWhistleMain.xib in Resources */,
+				88F00FBE130D8CB8007D2BBA /* Default.png in Resources */,
+				8878C8F3148C5B380078E112 /* About.png in Resources */,
+				8878C8F4148C5B380078E112 /* bg.png in Resources */,
+				8878C8F5148C5B380078E112 /* doUWhistle.png in Resources */,
+				8878C8F6148C5B380078E112 /* GameMode.png in Resources */,
+				8878C8F7148C5B380078E112 /* help.png in Resources */,
+				8878C8F8148C5B380078E112 /* highScores.png in Resources */,
+				8878C8F9148C5B380078E112 /* testMode.png in Resources */,
+				8878C8FA148C5B380078E112 /* theWhistleSimon.png in Resources */,
+				8878C8FB148C5B380078E112 /* whistleSimon.png in Resources */,
+				8878C92B148C60F80078E112 /* MSHelp.xib in Resources */,
+				8878C934148C61010078E112 /* MSAbout.xib in Resources */,
+				8878C940148C61180078E112 /* MSTestMode.xib in Resources */,
+				8878C947148C614F0078E112 /* MSGameMode.xib in Resources */,
+				8878C94E148C615F0078E112 /* MSHighScores.xib in Resources */,
+				8878C977148C647E0078E112 /* donegreen.png in Resources */,
+				88460E91148D5FB9000B0181 /* scores.sql in Resources */,
+				88460EF2148D647E000B0181 /* blip_click.aif in Resources */,
+				88460EF3148D647E000B0181 /* right.mp3 in Resources */,
+				88460EF4148D647E000B0181 /* wrong.mp3 in Resources */,
+				889F4DA7149033CE00E25E5F /* thehighScores.png in Resources */,
+				889F4E17149059EB00E25E5F /* theGameMode.png in Resources */,
+				889F4E18149059EB00E25E5F /* theHowToWhistleWithYourMouse.png in Resources */,
+				889F4E19149059EB00E25E5F /* theTestMode.png in Resources */,
+				889F4E1A149059EB00E25E5F /* theTipsAndWarnings.png in Resources */,
+				889F4E2D14905E4300E25E5F /* theBlue.png in Resources */,
+				889F4E2E14905E4300E25E5F /* theRed.png in Resources */,
+				889F4E2F14905E4300E25E5F /* theYellow.png in Resources */,
+				888E218F149ED56500C40B9E /* theGreen.png in Resources */,
+				888E219A149EDB6700C40B9E /* lose.caf in Resources */,
+				882B5C1D14A2239D0069104F /* gameOver.png in Resources */,
+				88703EA214A2387F00656BE2 /* MSHighScoreInput.xib in Resources */,
+				88ABE3E714A3CEC900515199 /* bgGame.png in Resources */,
+				88ABE44B14A4B66300515199 /* bgPieces.png in Resources */,
+				88ABE44C14A4B66300515199 /* bottom.png in Resources */,
+				88ABE44D14A4B66300515199 /* top.png in Resources */,
+				88D09D0B14A6A07D00BE0DFF /* theHowToPlay.png in Resources */,
+				887D4ACB14A755EB00769ABE /* MSWhistleMain-iPad.xib in Resources */,
+				887D4B0214A765B100769ABE /* MSHelp-iPad.xib in Resources */,
+				887D4B2314A76DF300769ABE /* MSAbout-iPad.xib in Resources */,
+				887D4B2414A76DF300769ABE /* MSGameMode-iPad.xib in Resources */,
+				887D4B2514A76DF300769ABE /* MSHighScoreInput-iPad.xib in Resources */,
+				887D4B2614A76DF300769ABE /* MSTestMode-iPad.xib in Resources */,
+				887D4B3514A7714500769ABE /* MSHighScores-iPad.xib in Resources */,
+				883E405414B153B000C8E2A3 /* Icon-72.png in Resources */,
+				883E406A14B1549700C8E2A3 /* Icon.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D60588E0D05DD3D006BFB54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
+				1D3623260D0F684500981E51 /* wistleDogAppDelegate.mm in Sources */,
+				888D145D130B1F7700E6EDAA /* MSWhistleMain.mm in Sources */,
+				88E008A3130C607500A48611 /* aurio_helper.cpp in Sources */,
+				88E008A4130C607500A48611 /* rad2fft.c in Sources */,
+				88E008A5130C607500A48611 /* SpectrumAnalysis.cpp in Sources */,
+				88E008A6130C607500A48611 /* FFTBufferManager.cpp in Sources */,
+				88E008A7130C607500A48611 /* CADebugMacros.cpp in Sources */,
+				88E008A8130C607500A48611 /* CAStreamBasicDescription.cpp in Sources */,
+				88E008A9130C607500A48611 /* CAXException.cpp in Sources */,
+				88E008AA130C607500A48611 /* MSSoundManager.cpp in Sources */,
+				88E008AB130C607500A48611 /* Recorder.mm in Sources */,
+				8878C92A148C60F80078E112 /* MSHelp.mm in Sources */,
+				8878C933148C61010078E112 /* MSAbout.mm in Sources */,
+				8878C93F148C61180078E112 /* MSTestMode.mm in Sources */,
+				8878C946148C614F0078E112 /* MSGameMode.mm in Sources */,
+				8878C94D148C615F0078E112 /* MSHighScores.mm in Sources */,
+				88460E9D148D6077000B0181 /* NSCallScore.m in Sources */,
+				88460E9E148D6077000B0181 /* Score.m in Sources */,
+				88460E9F148D6077000B0181 /* XMLReaderScore.m in Sources */,
+				886552FD1491B951009D0A14 /* Movida.m in Sources */,
+				88703EA114A2387F00656BE2 /* MSHighScoreInput.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1D6058940D05DD3E006BFB54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Moises Swiczar";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Moises Swiczar";
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = WhistleSimon_Prefix.pch;
+				INFOPLIST_FILE = "WhistleSimon-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../AnalylicsLibrary\"",
+					"\"$(SRCROOT)\"",
+				);
+				PRODUCT_NAME = WhistleSimon;
+				PROVISIONING_PROFILE = "49FABEEE-7B84-486D-B816-7FA34F087096";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "49FABEEE-7B84-486D-B816-7FA34F087096";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1D6058950D05DD3E006BFB54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Moises Swiczar";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Moises Swiczar";
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = WhistleSimon_Prefix.pch;
+				INFOPLIST_FILE = "WhistleSimon-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../AnalylicsLibrary\"",
+					"\"$(SRCROOT)\"",
+				);
+				PRODUCT_NAME = WhistleSimon;
+				PROVISIONING_PROFILE = "49FABEEE-7B84-486D-B816-7FA34F087096";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "49FABEEE-7B84-486D-B816-7FA34F087096";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		888D15FA130B3DE300E6EDAA /* ADHoc */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Moises Swiczar";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Moises Swiczar";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PREBINDING = NO;
+				PROVISIONING_PROFILE = "49FABEEE-7B84-486D-B816-7FA34F087096";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "49FABEEE-7B84-486D-B816-7FA34F087096";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = ADHoc;
+		};
+		888D15FB130B3DE300E6EDAA /* ADHoc */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Moises Swiczar";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Moises Swiczar";
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = WhistleSimon_Prefix.pch;
+				INFOPLIST_FILE = "WhistleSimon-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../AnalylicsLibrary\"",
+					"\"$(SRCROOT)\"",
+				);
+				PRODUCT_NAME = WhistleSimon;
+				PROVISIONING_PROFILE = "49FABEEE-7B84-486D-B816-7FA34F087096";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "49FABEEE-7B84-486D-B816-7FA34F087096";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = ADHoc;
+		};
+		88D09D6A14A6A91F00BE0DFF /* Store */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Moises Swiczar";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Moises Swiczar";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PREBINDING = NO;
+				PROVISIONING_PROFILE = "49FABEEE-7B84-486D-B816-7FA34F087096";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "49FABEEE-7B84-486D-B816-7FA34F087096";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Store;
+		};
+		88D09D6B14A6A91F00BE0DFF /* Store */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Moises Swiczar";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Moises Swiczar";
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = WhistleSimon_Prefix.pch;
+				INFOPLIST_FILE = "WhistleSimon-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../AnalylicsLibrary\"",
+					"\"$(SRCROOT)\"",
+				);
+				PRODUCT_NAME = WhistleSimon;
+				PROVISIONING_PROFILE = "49FABEEE-7B84-486D-B816-7FA34F087096";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "49FABEEE-7B84-486D-B816-7FA34F087096";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Store;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Moises Swiczar";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Moises Swiczar";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				PREBINDING = NO;
+				PROVISIONING_PROFILE = "49FABEEE-7B84-486D-B816-7FA34F087096";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "49FABEEE-7B84-486D-B816-7FA34F087096";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Moises Swiczar";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Moises Swiczar";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PREBINDING = NO;
+				PROVISIONING_PROFILE = "49FABEEE-7B84-486D-B816-7FA34F087096";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "49FABEEE-7B84-486D-B816-7FA34F087096";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "WhistleSimon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D6058940D05DD3E006BFB54 /* Debug */,
+				1D6058950D05DD3E006BFB54 /* Release */,
+				888D15FB130B3DE300E6EDAA /* ADHoc */,
+				88D09D6B14A6A91F00BE0DFF /* Store */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "WhistleSimon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+				888D15FA130B3DE300E6EDAA /* ADHoc */,
+				88D09D6A14A6A91F00BE0DFF /* Store */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}
